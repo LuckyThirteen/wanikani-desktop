@@ -1,3 +1,6 @@
+// by Mempo
+// from https://greasyfork.org/en/scripts/11244-wanikani-real-numbers
+
 function displayReal(numberReviews, numberLessons){
   numberReviews.innerHTML = localStorage.getItem('numberReviews');
   numberLessons.innerHTML = localStorage.getItem('numberLessons');

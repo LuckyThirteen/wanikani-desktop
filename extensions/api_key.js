@@ -1,3 +1,6 @@
+// by Robin Findley
+// from https://greasyfork.org/en/scripts/9552-wanikani-dashboard-progress-plus
+
 function get_api_key() {
     var done = $.Deferred();
 

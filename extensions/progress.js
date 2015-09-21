@@ -1,3 +1,6 @@
+// by Robin Findley
+// from https://greasyfork.org/en/scripts/9552-wanikani-dashboard-progress-plus
+
 var LoadURLs = ['http://www.wanikani.com/', 'https://www.wanikani.com/', 'http://www.wanikani.com/dashboard', 'https://www.wanikani.com/dashboard'];
 
 if ($.inArray(window.location.href, LoadURLs) > -1) {
