@@ -1,0 +1,16 @@
+{
+  "name": "wk-desktop",
+  "version": "1.0.0",
+  "description": "Wanikani desktop app with included userscripts.",
+  "main": "main.js",
+  "dependencies": {
+    "electron-prebuilt": "^0.33.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "electron .",
+    "package": "electron-packager ./ WaniKani --all --out=../wk-release --version=0.33.0 --ignore=./node_modules"
+  },
+  "author": "tomboy",
+  "license": "GLPv3"
+}
